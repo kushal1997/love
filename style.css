@@ -10,6 +10,14 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  h1{
+    color: #e83636; font-size: 7rem; font-weight: 700; font-family: cursive;
+  }
+  @media screen and (max-width: 600px) {
+    h1{
+        font-size: 5rem; 
+      }
+  }
   svg {
     overflow: visible;
   }
